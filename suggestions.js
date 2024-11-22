@@ -1,9 +1,10 @@
 const words = [
+  "compare health insurance",
   "singles cover",
   "book a doctor's appointment",
   "call Bupa",
 ];
-const timePerWord = 3000; // milliseconds
+const timePerWord = 4000; // milliseconds
 const timePerLetter = 50; //milliseconds
 
 let current = words[0];
