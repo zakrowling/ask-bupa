@@ -21,6 +21,9 @@
         recognition.onresult = (event) => {
             const transcript = event.results[0][0].transcript;
             outputDiv.textContent = transcript;
+            if (outputDiv.textContent.includes("yes")) {
+                alert('You said yes');
+            }
         };
         
         recognition.onend = () => {
@@ -30,10 +33,6 @@
         startButton.addEventListener('click', () => {
             recognition.start();
         });
-
-        if (transcript.includes("yes")) {
-            alert('You said yes');
-        }
     </script>
 </body>
 </html>
