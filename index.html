@@ -35,19 +35,19 @@
             const transcript = event.results[0][0].transcript;
             
             outputDiv.textContent = transcript;
-            if (outputDiv.textContent.includes("singles cover")) {
+            if (outputDiv.textContent.includes("singles health cover")) {
                 window.open("https://www.bupa.com.au/health-insurance/singles", "_blank");
             }
-            else if (outputDiv.textContent.includes("couples cover")) {
+            else if (outputDiv.textContent.includes("couples health cover")) {
                 window.open("https://www.bupa.com.au/health-insurance/couples", "_blank");
             }
-            else if (outputDiv.textContent.includes("family cover")) {
+            else if (outputDiv.textContent.includes("family health cover")) {
                 window.open("https://www.bupa.com.au/health-insurance/family", "_blank");
             }
-            else if (outputDiv.textContent.includes("single parents cover")) {
+            else if (outputDiv.textContent.includes("single parents health cover")) {
                 window.open("https://www.bupa.com.au/health-insurance/single-parents", "_blank");
             }
-            else if (outputDiv.textContent.includes("student cover")) {
+            else if (outputDiv.textContent.includes("student health cover")) {
                 window.open("https://www.bupa.com.au/health-insurance/oshc", "_blank");
             }
             else if (outputDiv.textContent.includes("online doctors")) {
