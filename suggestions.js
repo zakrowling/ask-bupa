@@ -11,7 +11,7 @@ const words = [
   "I need help",
 ];
 const timePerWord = 6000; // milliseconds
-const timePerLetter = 50; //milliseconds
+const timePerLetter = 25; //milliseconds
 
 let current = words[0];
 const wordEl = document.getElementById("word");
