@@ -77,6 +77,12 @@
             else if (outputDiv.textContent.includes("help")) {
                 window.open("https://www.bupa.com.au/help", "_blank");
             }
+            else if (outputDiv.textContent.includes("login")) {
+                window.open("https://my.bupa.com.au/login?s_intcid=homepage:topnav:mybupa:login", "_blank");
+            }
+            else if (outputDiv.textContent.includes("call me back")) {
+                window.open("https://www.bupa.com.au/call-me-back", "_blank");
+            }
             else if (outputDiv.textContent) {
                 const matches = outputDiv.textContent.replace(/ /g, '+');
                 const searchURL = "https://www.bupa.com.au/utility/search-results?q=" + matches;
