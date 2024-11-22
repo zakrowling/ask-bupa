@@ -9,6 +9,7 @@ const words = [
   "chemist delivery",
   "family health cover",
   "I need help",
+  "message Bupa",
 ];
 const timePerWord = 6000; // milliseconds
 const timePerLetter = 40; //milliseconds
