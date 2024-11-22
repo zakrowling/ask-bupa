@@ -4,7 +4,7 @@ const words = [
   "book a doctor\'s appointment",
   "call Bupa",
 ];
-const timePerWord = 4000; // milliseconds
+const timePerWord = 6000; // milliseconds
 const timePerLetter = 50; //milliseconds
 
 let current = words[0];
