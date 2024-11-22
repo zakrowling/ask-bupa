@@ -5,11 +5,11 @@
 </head>
 <body>
     <button id="startButton">Start Voice Input</button>
-    <div id="output"></div>
+    <input value="">
 
     <script>
         const startButton = document.getElementById('startButton');
-        const outputDiv = document.getElementById('output');
+        const outputDiv = document.getElementById('output').value;
         
         const recognition = new (window.SpeechRecognition || window.webkitSpeechRecognition || window.mozSpeechRecognition || window.msSpeechRecognition)();
         recognition.lang = 'en-US';
