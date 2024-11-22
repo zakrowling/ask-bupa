@@ -20,8 +20,9 @@ body, html {
 }
 
 #output {
-  text-align: left;
-  width: 240px;
+  font-size: 18px;
+  font-style: italic;
+  padding-bottom: 24px;
 }
 
 #startButton {
