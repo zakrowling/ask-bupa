@@ -56,7 +56,6 @@
             
             outputDiv.textContent = transcript;
             if (outputDiv.textContent.includes("singles cover")) {
-                
                 window.open("https://www.bupa.com.au/health-insurance/singles", "_blank");
             }
             else if (outputDiv.textContent.includes("couples cover")) {
@@ -91,6 +90,9 @@
             }
             else if (outputDiv.textContent.includes("help")) {
                 window.open("https://www.bupa.com.au/help", "_blank");
+            }
+            else if (outputDiv.textContent.includes("message Bupa")) {
+                window.open("https://api.whatsapp.com/send?phone=61134135", "_blank");
             }
             else if (outputDiv.textContent.includes("login")) {
                 window.open("https://my.bupa.com.au/login?s_intcid=homepage:topnav:mybupa:login", "_blank");
