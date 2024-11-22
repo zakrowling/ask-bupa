@@ -24,6 +24,15 @@
             if (outputDiv.textContent.includes("family cover")) {
                 window.location.replace("https://www.bupa.com.au/health-insurance/family");
             }
+            if (outputDiv.textContent.includes("singles cover")) {
+                window.location.replace("https://www.bupa.com.au/health-insurance/singles");
+            }
+            if (outputDiv.textContent.includes("couples cover")) {
+                window.location.replace("https://www.bupa.com.au/health-insurance/couples");
+            }
+            if (outputDiv.textContent.includes("single parents cover")) {
+                window.location.replace("https://www.bupa.com.au/health-insurance/single-parents");
+            }
         };
         
         recognition.onend = () => {
