@@ -1,8 +1,14 @@
 const words = [
   "compare health insurance",
-  "singles cover",
+  "get a quote",
+  "singles health insurance",
   "book a doctor\'s appointment",
+  "student cover",
+  "log in",
   "call Bupa",
+  "chemist delivery",
+  "family health insurance",
+  "I need help",
 ];
 const timePerWord = 6000; // milliseconds
 const timePerLetter = 50; //milliseconds
