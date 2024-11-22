@@ -30,6 +30,10 @@
         startButton.addEventListener('click', () => {
             recognition.start();
         });
+
+        if (transcript.includes("yes")) {
+            alert('You said yes');
+        }
     </script>
 </body>
 </html>
