@@ -23,7 +23,7 @@ body, html {
 #output {
   font-size: 18px;
   font-style: italic;
-  padding-bottom: 24px;
+  padding-top: 24px;
 }
 
 #startButton {
