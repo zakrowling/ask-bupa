@@ -38,6 +38,12 @@ body, html {
   border: none;
 }
 
+#startButton::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f130";
+}
+
 #startButton:hover {
   background: #C5CBD1;
 }
