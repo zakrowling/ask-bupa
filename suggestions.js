@@ -1,7 +1,7 @@
 const words = [
   "compare health insurance",
   "singles cover",
-  "book a doctor's appointment",
+  "book a doctor\'s appointment",
   "call Bupa",
 ];
 const timePerWord = 4000; // milliseconds
