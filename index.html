@@ -74,6 +74,9 @@
             else if (outputDiv.textContent.includes("provider")) {
                 window.open("https://www.bupa.com.au/find-a-provider", "_blank");
             }
+            else if (outputDiv.textContent.includes("help")) {
+                window.open("https://www.bupa.com.au/help", "_blank");
+            }
             else if (outputDiv.textContent) {
                 const matches = outputDiv.textContent.replace(/ /g, '+');
                 const searchURL = "https://www.bupa.com.au/utility/search-results?q=" + matches;
