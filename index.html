@@ -17,6 +17,7 @@
         
         recognition.onstart = () => {
             startButton.textContent = 'Listening...';
+            outputDiv.textContent = '';
         };
         
         recognition.onresult = (event) => {
@@ -40,7 +41,7 @@
         };
         
         recognition.onend = () => {
-            startButton.textContent = 'Searching...';
+            startButton.textContent = 'Ask Bupa';
         };
         
         startButton.addEventListener('click', () => {
