@@ -26,9 +26,10 @@ body, html {
 #startButton {
   padding: 12px 24px;
   color: #fff;
-  font-size: 14px;
+  font-size: 18px;
   font-weight: bold;
   text-decoration: none;
   border-radius: 4px;
+  border: none;
   background: #0079C8;
 }
