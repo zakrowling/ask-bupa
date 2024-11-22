@@ -8,7 +8,7 @@ const words = [
   "call Bupa",
   "chemist delivery",
   "family health cover",
-  "I need help",
+  "help hub",
   "message Bupa",
 ];
 const timePerWord = 6000; // milliseconds
