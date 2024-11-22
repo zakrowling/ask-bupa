@@ -23,19 +23,23 @@
         recognition.onresult = (event) => {
             const transcript = event.results[0][0].transcript;
             outputDiv.textContent = transcript;
-            if (outputDiv.textContent.includes("family cover")) {
+            if (outputDiv.textContent) {
+                const matches = outputDiv.textContent.replace(/ /g, '+');
+                window.open("https://www.bupa.com.au/utility/search-results?q=" + matches, "_blank");
+            }
+            else if (outputDiv.textContent.includes("family cover")) {
                 window.open("https://www.bupa.com.au/health-insurance/family", "_blank");
             }
-            if (outputDiv.textContent.includes("singles cover")) {
+            else if (outputDiv.textContent.includes("singles cover")) {
                 window.open("https://www.bupa.com.au/health-insurance/singles", "_blank");
             }
-            if (outputDiv.textContent.includes("couples cover")) {
+            else if (outputDiv.textContent.includes("couples cover")) {
                 window.open("https://www.bupa.com.au/health-insurance/couples", "_blank");
             }
-            if (outputDiv.textContent.includes("single parents cover")) {
+            else if (outputDiv.textContent.includes("single parents cover")) {
                 window.open("https://www.bupa.com.au/health-insurance/single-parents", "_blank");
             }
-            if (outputDiv.textContent.includes("quote")) {
+            else if (outputDiv.textContent.includes("quote")) {
                 window.open("https://www.bupa.com.au/health-insurance/quote", "_blank");
             }
         };
