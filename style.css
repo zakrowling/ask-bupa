@@ -1,6 +1,8 @@
 body, html {
   margin: 0;
   font-family: "Montserrat", sans-serif;
+  background: #0D1846;
+  color: #fff;
 }
 
 #container {
@@ -27,16 +29,16 @@ body, html {
 
 #startButton {
   padding: 12px 24px;
-  color: #fff;
+  background: #F5F6F8;
+  color: #0079C8;
   cursor: pointer;
   font-size: 18px;
   font-weight: bold;
   text-decoration: none;
   border-radius: 4px;
   border: none;
-  background: #0079C8;
 }
 
 #startButton:hover {
-  background: #0652AE;
+  background: #C5CBD1;
 }
