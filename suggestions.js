@@ -3,6 +3,7 @@ const words = [
   "get a quote",
   "singles health cover",
   "book a doctor\'s appointment",
+  "hospital only cover",
   "student health cover",
   "log in",
   "call Bupa",
