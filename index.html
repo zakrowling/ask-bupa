@@ -25,7 +25,8 @@
             outputDiv.textContent = transcript;
             if (outputDiv.textContent) {
                 const matches = outputDiv.textContent.replace(/ /g, '+');
-                window.open("https://www.bupa.com.au/utility/search-results?q=" + matches, "_blank");
+                const searchURL = "https://www.bupa.com.au/utility/search-results?q=" + matches;
+                window.open(searchURL, "_blank");
             }
             else if (outputDiv.textContent.includes("family cover")) {
                 window.open("https://www.bupa.com.au/health-insurance/family", "_blank");
