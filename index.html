@@ -23,19 +23,14 @@
         recognition.onresult = (event) => {
             const transcript = event.results[0][0].transcript;
             outputDiv.textContent = transcript;
-            if (outputDiv.textContent) {
-                const matches = outputDiv.textContent.replace(/ /g, '+');
-                const searchURL = "https://www.bupa.com.au/utility/search-results?q=" + matches;
-                window.open(searchURL, "_blank");
-            }
-            else if (outputDiv.textContent.includes("family cover")) {
-                window.open("https://www.bupa.com.au/health-insurance/family", "_blank");
-            }
-            else if (outputDiv.textContent.includes("singles cover")) {
+            if (outputDiv.textContent.includes("singles cover")) {
                 window.open("https://www.bupa.com.au/health-insurance/singles", "_blank");
             }
             else if (outputDiv.textContent.includes("couples cover")) {
                 window.open("https://www.bupa.com.au/health-insurance/couples", "_blank");
+            }
+            else if (outputDiv.textContent.includes("family cover")) {
+                window.open("https://www.bupa.com.au/health-insurance/family", "_blank");
             }
             else if (outputDiv.textContent.includes("single parents cover")) {
                 window.open("https://www.bupa.com.au/health-insurance/single-parents", "_blank");
@@ -45,6 +40,11 @@
             }
             else if (outputDiv.textContent.includes("provider")) {
                 window.open("https://www.bupa.com.au/find-a-provider", "_blank");
+            }
+            if (outputDiv.textContent) {
+                const matches = outputDiv.textContent.replace(/ /g, '+');
+                const searchURL = "https://www.bupa.com.au/utility/search-results?q=" + matches;
+                window.open(searchURL, "_blank");
             }
         };
         
