@@ -41,7 +41,7 @@
             else if (outputDiv.textContent.includes("provider")) {
                 window.open("https://www.bupa.com.au/find-a-provider", "_blank");
             }
-            if (outputDiv.textContent) {
+            else if (outputDiv.textContent) {
                 const matches = outputDiv.textContent.replace(/ /g, '+');
                 const searchURL = "https://www.bupa.com.au/utility/search-results?q=" + matches;
                 window.open(searchURL, "_blank");
