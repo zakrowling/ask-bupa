@@ -11,4 +11,4 @@ If it cannot detect a match, it defaults users to the standard website search an
 ## Demo
 https://zakrowling.github.io/ask-bupa/
 
-Note: The demo will only work if you give permission for your browser to access your microphone. Ad blockers and other protective tools may impact the prototype.
+Note: The demo will only work if you give permission for your browser to access your microphone. Ad blockers and other protective tools may impact the prototype. The demo has only been tested on a Mac.
