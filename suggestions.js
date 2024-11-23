@@ -14,7 +14,7 @@ const words = [
   "Bupa offers",
   "message Bupa",
 ];
-const timePerWord = 6000; // milliseconds
+const timePerWord = 5000; // milliseconds
 const timePerLetter = 40; //milliseconds
 
 let current = words[0];
