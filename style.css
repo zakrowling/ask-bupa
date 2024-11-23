@@ -62,3 +62,7 @@ h1 i {
 #startButton:hover {
   background: #C5CBD1;
 }
+
+#startButton.active {
+  background: #D90014;
+}
