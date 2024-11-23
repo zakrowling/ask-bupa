@@ -13,6 +13,7 @@ const words = [
   "family health cover",
   "Bupa offers",
   "message Bupa",
+  "Bupa aged care",
 ];
 const timePerWord = 5000; // milliseconds
 const timePerLetter = 40; //milliseconds
