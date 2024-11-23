@@ -64,5 +64,6 @@ h1 i {
 }
 
 #startButton.active {
-  color: #D90014;
+  background: #D90014;
+  color: #fff;
 }
