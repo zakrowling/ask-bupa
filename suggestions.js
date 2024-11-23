@@ -1,7 +1,7 @@
 const words = [
   "compare health cover",
   "get a quote",
-  "new to health cover",
+  "frequently asked questions",
   "singles health cover",
   "book a doctor\'s appointment",
   "hospital only cover",
