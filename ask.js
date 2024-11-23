@@ -74,16 +74,16 @@ recognition.onresult = (event) => {
     else if (outputDiv.textContent.includes("chemist delivery")) {
         window.open("https://www.blua.bupa.com.au/chemist-delivery", "_blank");
     }
-    else if (outputDiv.textContent.includes("bupa optical")) {
+    else if (outputDiv.textContent.includes("Bupa Optical")) {
         window.open("https://bupaoptical.bupa.com.au/", "_blank");
     }
-    else if (outputDiv.textContent.includes("bupa dental")) {
+    else if (outputDiv.textContent.includes("Bupa Dental")) {
         window.open("https://www.bupadental.com.au/", "_blank");
     }
-    else if (outputDiv.textContent.includes("bupa hearing")) {
+    else if (outputDiv.textContent.includes("Bupa Hearing")) {
         window.open("https://hearing.bupa.com.au/", "_blank");
     }
-    else if (outputDiv.textContent.includes("bupa aged care")) {
+    else if (outputDiv.textContent.includes("Bupa Aged Care")) {
         window.open("https://www.bupaagedcare.com.au/", "_blank");
     }
     else if (outputDiv.textContent.includes("health and well-being")) {
