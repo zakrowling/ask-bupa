@@ -8,12 +8,13 @@ const words = [
   "log in",
   "call Bupa",
   "student health cover",
-  "chemist delivery",
   "find a provider",
   "family health cover",
   "Bupa offers",
   "message Bupa",
-  "Bupa aged care",
+  "Bupa Optical",
+  "chemist delivery",
+  "Bupa Dental",
 ];
 const timePerWord = 5000; // milliseconds
 const timePerLetter = 40; //milliseconds
