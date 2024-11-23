@@ -67,3 +67,83 @@ h1 i {
   background-color: #D90014;
   color: #fff;
 }
+
+body{
+  display: flex;
+  justify-content: center;
+  background: black;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  height: 100vh;
+}
+
+.sound-bars {
+  display: flex;
+  height: 64px;
+}
+
+.sound-bars::before,
+.sound-bars::after,
+.sound-bars {
+  content: 'bar';
+  color: transparent;
+  transform: scaleY(.4);
+  height: 24px;
+  margin: 0 4px;
+  width: 4px;
+  background: #fff;
+  border-radius: 20px;
+  animation-duration: 1.2s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+.sound-bars::before {
+  position: relative;
+  left: 4px;
+  animation-name: loud;
+}
+
+.sound-bars {
+  animation-name: loud;
+}
+
+.sound-bars::after {
+  animation-name: normal;
+}
+
+@keyframes quiet {
+  25%{
+    transform: scaleY(.6);
+  }
+  50%{
+    transform: scaleY(.4);
+  }
+  75%{
+    transform: scaleY(.8);
+  }
+}
+
+@keyframes normal {
+  25%{
+    transform: scaleY(1);
+  }
+  50%{
+    transform: scaleY(.4);
+  }
+  75%{
+    transform: scaleY(.6);
+  }
+}
+@keyframes loud {
+  25%{
+    transform: scaleY(1);
+  }
+  50%{
+    transform: scaleY(.4);
+  }
+  75%{
+    transform: scaleY(1);
+  }
+}
