@@ -68,16 +68,6 @@ h1 i {
   color: #fff;
 }
 
-body{
-  display: flex;
-  justify-content: center;
-  background: black;
-  margin: 0;
-  padding: 0;
-  align-items: center;
-  height: 100vh;
-}
-
 .sound-bars {
   display: flex;
   height: 64px;
