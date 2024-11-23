@@ -11,12 +11,13 @@ const words = [
   "chemist delivery",
   "find a provider",
   "family health cover",
+  "Bupa offers",
   "message Bupa",
 ];
 const timePerWord = 6000; // milliseconds
 const timePerLetter = 40; //milliseconds
 
-let current = words[0];
+let current = Math.floor(Math.random() * words.length);
 const wordEl = document.getElementById("word");
 
 setInterval(switchText, timePerWord);
