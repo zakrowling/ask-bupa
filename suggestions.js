@@ -1,6 +1,7 @@
 const words = [
   "compare health cover",
   "get a quote",
+  "new to health cover",
   "singles health cover",
   "book a doctor\'s appointment",
   "hospital only cover",
@@ -9,7 +10,6 @@ const words = [
   "call Bupa",
   "chemist delivery",
   "family health cover",
-  "help hub",
   "message Bupa",
 ];
 const timePerWord = 6000; // milliseconds
