@@ -17,8 +17,7 @@ const words = [
 const timePerWord = 6000; // milliseconds
 const timePerLetter = 40; //milliseconds
 
-let randomWord = Math.floor(Math.random() * words.length); // words[0];
-let current = words[randomWord];
+let current = words[0];
 const wordEl = document.getElementById("word");
 
 setInterval(switchText, timePerWord);
