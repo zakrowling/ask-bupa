@@ -2,7 +2,7 @@
 A voice-only search prototype for navigating the Bupa ecosystem.
 
 ## How it works
-Users interact with a button that triggers the (https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API) "Web Speech API") in their browser.
+Users interact with a button that triggers the Web Speech API in their browser.
 The Web Speech API provides browsers with speech recognition and speech synthesis capability (also known as text to speech, or tts).
 
 After speech synthesis, the spoken phrase is then checked for keywords and matches URLs to these keywords.
