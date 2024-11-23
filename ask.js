@@ -5,6 +5,7 @@ const recognition = new (window.SpeechRecognition || window.webkitSpeechRecognit
 recognition.lang = 'en-US';
 
 recognition.onstart = () => {
+    startButton.classList.add("active");
     startButton.textContent = 'Listening...';
     outputDiv.textContent = '';
 };
@@ -81,6 +82,7 @@ recognition.onresult = (event) => {
 };
 
 recognition.onend = () => {
+    startButton.classList.remove("active");
     startButton.textContent = 'Ask Bupa';
 };
 
