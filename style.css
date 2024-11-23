@@ -66,7 +66,7 @@ h1 i {
 #startButton.active {
   background-color: #D90014;
   color: #fff;
-  animation: listening linear 1s infinite alternate;
+  animation: listening 1s linear infinite alternate;
 }
 
 @keyframes listening {
