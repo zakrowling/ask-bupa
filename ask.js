@@ -80,7 +80,7 @@ recognition.onresult = (event) => {
     else if (outputDiv.textContent.includes("Bupa Dental")) {
         window.open("https://www.bupadental.com.au/", "_blank");
     }
-    else if (outputDiv.textContent.includes("Bupa Hearing")) {
+    else if (outputDiv.textContent.includes("Bupa hearing")) {
         window.open("https://hearing.bupa.com.au/", "_blank");
     }
     else if (outputDiv.textContent.includes("Bupa Aged Care")) {
