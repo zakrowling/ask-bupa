@@ -38,15 +38,6 @@ recognition.onresult = (event) => {
     else if (outputDiv.textContent.includes("student health cover")) {
         window.open("https://www.bupa.com.au/health-insurance/oshc", "_blank");
     }
-    else if (outputDiv.textContent.includes("online doctors")) {
-        window.open("https://www.blua.bupa.com.au/", "_blank");
-    }
-    else if (outputDiv.textContent.includes("book a doctor's appointment")) {
-        window.open("https://www.blua.bupa.com.au/online-doctors/validation/?s_intcid=blua:generic:bookadoctornow:startvalidation", "_blank");
-    }
-    else if (outputDiv.textContent.includes("chemist delivery")) {
-        window.open("https://www.blua.bupa.com.au/chemist-delivery", "_blank");
-    }
     else if (outputDiv.textContent.includes("quote")) {
         window.open("https://www.bupa.com.au/health-insurance/quote", "_blank");
     }
@@ -73,6 +64,30 @@ recognition.onresult = (event) => {
     }
     else if (outputDiv.textContent.includes("call me back")) {
         window.open("https://www.bupa.com.au/call-me-back", "_blank");
+    }
+    else if (outputDiv.textContent.includes("online doctors")) {
+        window.open("https://www.blua.bupa.com.au/", "_blank");
+    }
+    else if (outputDiv.textContent.includes("book a doctor's appointment")) {
+        window.open("https://www.blua.bupa.com.au/online-doctors/validation/?s_intcid=blua:generic:bookadoctornow:startvalidation", "_blank");
+    }
+    else if (outputDiv.textContent.includes("chemist delivery")) {
+        window.open("https://www.blua.bupa.com.au/chemist-delivery", "_blank");
+    }
+    else if (outputDiv.textContent.includes("bupa optical")) {
+        window.open("https://bupaoptical.bupa.com.au/", "_blank");
+    }
+    else if (outputDiv.textContent.includes("bupa dental")) {
+        window.open("https://www.bupadental.com.au/", "_blank");
+    }
+    else if (outputDiv.textContent.includes("bupa hearing")) {
+        window.open("https://hearing.bupa.com.au/", "_blank");
+    }
+    else if (outputDiv.textContent.includes("bupa aged care")) {
+        window.open("https://www.bupaagedcare.com.au/", "_blank");
+    }
+    else if (outputDiv.textContent.includes("health and wellbeing")) {
+        window.open("https://www.bupa.com.au/healthlink", "_blank");
     }
     else if (outputDiv.textContent) {
         const matches = outputDiv.textContent.replace(/ /g, '+');
