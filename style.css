@@ -90,7 +90,7 @@ h1 i {
 
 .sound-bars::before {
   position: relative;
-  left: -4px;
+  left: -10px;
   animation-name: loud;
 }
 
@@ -100,7 +100,7 @@ h1 i {
 
 .sound-bars::after {
   position: relative;
-  left: 4px;
+  left: 6px;
   animation-name: normal;
 }
 
