@@ -69,8 +69,7 @@ h1 i {
 }
 
 .sound-bars {
-  display: flex;
-  height: 64px;
+  margin-left: -4px;
 }
 
 .sound-bars::before,
@@ -91,7 +90,7 @@ h1 i {
 
 .sound-bars::before {
   position: relative;
-  left: 4px;
+  left: -4px;
   animation-name: loud;
 }
 
@@ -100,6 +99,8 @@ h1 i {
 }
 
 .sound-bars::after {
+  position: relative;
+  left: 4px;
   animation-name: normal;
 }
 
