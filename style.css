@@ -40,7 +40,7 @@ h1 {
 #startButton {
   padding: 16px 24px;
   background: #F5F6F8;
-  color: #0D1846;
+  color: #000;
   cursor: pointer;
   font: bold 18px "Montserrat", sans-serif;
   text-decoration: none;
