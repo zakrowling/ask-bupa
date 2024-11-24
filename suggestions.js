@@ -5,9 +5,10 @@ const words = [
   "singles health cover",
   "book a doctor\'s appointment",
   "hospital only cover",
-  "log in",
+  "log into myBupa",
   "call Bupa",
   "student health cover",
+  "online doctors"
   "find a provider",
   "family health cover",
   "Bupa offers",
