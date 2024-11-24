@@ -21,10 +21,6 @@ h1 {
   font-weight: normal;
 }
 
-h1 i {
-  font-weight: bold;
-}
-
 #search {
   display: flex;
   flex: 1;
