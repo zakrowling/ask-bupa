@@ -8,7 +8,7 @@ const words = [
   "log into myBupa",
   "call Bupa",
   "student health cover",
-  "online doctors"
+  "online doctors",
   "find a provider",
   "family health cover",
   "Bupa offers",
