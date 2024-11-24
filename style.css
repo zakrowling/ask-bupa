@@ -50,7 +50,7 @@ h1 {
 }
 
 #startButton::before {
-  padding-right: 12px;
+  padding-right: 16px;
   font-family: "Font Awesome 6 Free";
   font-weight: 900;
   content: "\f130";
