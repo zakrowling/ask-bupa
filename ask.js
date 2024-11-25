@@ -69,8 +69,11 @@ recognition.onresult = (event) => {
     else if (outputDiv.textContent.includes("frequently asked questions")) {
         window.open("https://www.bupa.com.au/help", "_blank");
     }
-    else if (outputDiv.textContent.includes("message Bupa")) {
+    else if (outputDiv.textContent.includes("WhatsApp")) {
         window.open("https://api.whatsapp.com/send?phone=61134135", "_blank");
+    }
+    else if (outputDiv.textContent.includes("iMessage")) {
+        window.open("https://bcrw.apple.com/messages/api/messageprofiles/redirecthelper?service=iMessage&recipient=urn:biz:1c2dbb3d-f971-4cbe-a49e-21cf527f4eb7", "_blank");
     }
     else if (outputDiv.textContent.includes("login")) {
         window.open("https://my.bupa.com.au/login?s_intcid=homepage:topnav:mybupa:login", "_blank");
