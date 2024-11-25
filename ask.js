@@ -84,6 +84,9 @@ recognition.onresult = (event) => {
     else if (outputDiv.textContent.includes("call me back")) {
         window.open("https://www.bupa.com.au/call-me-back", "_blank");
     }
+    else if (outputDiv.textContent.includes("Bupa store")) {
+        window.open("https://www.bupa.com.au/contact-us/find-a-bupa-store", "_blank");
+    }
     else if (outputDiv.textContent.includes("online doctors")) {
         window.open("https://www.blua.bupa.com.au/", "_blank");
     }
