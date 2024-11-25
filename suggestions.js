@@ -11,6 +11,7 @@ const words = [
   "call Bupa",
   "chat via WhatsApp",
   "chat via iMessage",
+  "find a Bupa store",
   "corporate health cover",
   "student health cover",
   "online doctors",
