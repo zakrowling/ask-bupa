@@ -40,7 +40,7 @@ recognition.onresult = (event) => {
         window.open("https://www.bupa.com.au/health-insurance/hospital-cover?sortby=low&pricerange=0%2C200&hospitallevel=silverplus%2Cgold&paymentfrequency=fortnightly", "_blank");
     }
     else if (outputDiv.textContent.includes("cover for tax purposes")) {
-        window.open("https://www.bupa.com.au/health-insurance/singles?pathfinder=1&residency=citizen&familytype=single&sortby=low&pricerange=0%2C100&hospitallevel=basic&paymentfrequency=fortnightly", "_blank");
+        window.open("https://www.bupa.com.au/health-insurance/hospital-cover?sortby=low&pricerange=0%2C100&hospitallevel=basic&paymentfrequency=weekly", "_blank");
     }
     else if (outputDiv.textContent.includes("extras only cover")) {
         window.open("https://www.bupa.com.au/health-insurance/extras-cover", "_blank");
