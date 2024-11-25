@@ -16,6 +16,7 @@ const words = [
   "family health cover",
   "Bupa offers",
   "message Bupa on WhatsApp",
+  "message Bupa on iMessage",
   "Bupa Optical",
   "chemist delivery",
   "Bupa Dental",
