@@ -30,11 +30,20 @@ recognition.onresult = (event) => {
     else if (outputDiv.textContent.includes("hospital and extras cover")) {
         window.open("https://www.bupa.com.au/health-insurance/hospital-and-extras-cover", "_blank");
     }
+    else if (outputDiv.textContent.includes("top hospital and extras")) {
+        window.open("https://www.bupa.com.au/health-insurance/hospital-and-extras-cover?sortby=low&pricerange=0%2C200%2C0%2C200&extraslevel=top&hospitallevel=silverplus%2Cgold&paymentfrequency=fortnightly", "_blank");
+    }
     else if (outputDiv.textContent.includes("hospital only cover")) {
         window.open("https://www.bupa.com.au/health-insurance/hospital-cover", "_blank");
     }
+    else if (outputDiv.textContent.includes("top hospital")) {
+        window.open("https://www.bupa.com.au/health-insurance/hospital-cover?sortby=low&pricerange=0%2C200&hospitallevel=silverplus%2Cgold&paymentfrequency=fortnightly", "_blank");
+    }
     else if (outputDiv.textContent.includes("extras only cover")) {
         window.open("https://www.bupa.com.au/health-insurance/extras-cover", "_blank");
+    }
+    else if (outputDiv.textContent.includes("top extras")) {
+        window.open("https://www.bupa.com.au/health-insurance/extras-cover?sortby=low&pricerange=0%2C100&extraslevel=top&paymentfrequency=fortnightly", "_blank");
     }
     else if (outputDiv.textContent.includes("student health cover")) {
         window.open("https://www.bupa.com.au/health-insurance/oshc", "_blank");
