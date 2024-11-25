@@ -39,6 +39,9 @@ recognition.onresult = (event) => {
     else if (outputDiv.textContent.includes("student health cover")) {
         window.open("https://www.bupa.com.au/health-insurance/oshc", "_blank");
     }
+    else if (outputDiv.textContent.includes("corporate health cover")) {
+        window.open("https://www.bupa.com.au/corporate", "_blank");
+    }
     else if (outputDiv.textContent.includes("quote")) {
         window.open("https://www.bupa.com.au/health-insurance/quote", "_blank");
     }
