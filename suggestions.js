@@ -1,8 +1,3 @@
-var password = prompt("Enter in the password");
-if (password=="1234") {
-  return true;
-}
-
 const words = [
   "compare health cover",
   "get a quote",
