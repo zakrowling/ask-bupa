@@ -9,7 +9,7 @@ After speech synthesis, the spoken phrase is then checked for keywords and match
 If it cannot detect a match, it defaults users to the standard website search and builds a search query from each word in the phrase.
 
 ## Demo
-https://zakrowling.github.io/ask-bupa/
+https://zakrowling.github.io/ask-bupa/voice-only/
 
 Note: The demo will only work if you give permission for your browser to access your microphone. Ad blockers and other protective tools may impact the prototype.
 
