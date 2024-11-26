@@ -14,3 +14,27 @@ https://zakrowling.github.io/ask-bupa/voice-only/
 Note: The demo will only work if you give permission for your browser to access your microphone. Ad blockers and other protective tools may impact the prototype.
 
 The demo has only been tested on a Mac. Firefox, Opera, and legacy browsers don't support the Web Speech API.
+
+## Example test prompts
+"compare health cover"
+"get a quote"
+"frequently asked questions"
+"singles health cover"
+"book a doctor's appointment"
+"top hospital and extras cover"
+"cover for tax purposes"
+"extras only cover"
+"log in to myBupa"
+"call Bupa"
+"chat via WhatsApp"
+"chat via iMessage"
+"find a Bupa store"
+"corporate health cover"
+"student health cover"
+"online doctors"
+"find a provider"
+"Bupa offers"
+"family health cover"
+"Bupa Optical"
+"chemist delivery"
+"Bupa Dental"
