@@ -1,5 +1,5 @@
 # Ask Bupa
-A voice-only search prototype for navigating the Bupa ecosystem.
+A VUI search prototype for navigating the Bupa ecosystem.
 
 ## How it works
 Users interact with a button that triggers the Web Speech API in their browser.
