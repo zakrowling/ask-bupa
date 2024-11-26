@@ -16,7 +16,7 @@ Note: The demo will only work if you give permission for your browser to access 
 The demo has only been tested on a Mac. Firefox, Opera, and legacy browsers don't support the Web Speech API.
 
 ## Example test prompts
-Although the prototype will recognize any prompts, here are some test phrases.
+Although the prototype will recognize any prompts with a search query fallback, here are some test phrases.
 
 *"compare health cover"*
 
