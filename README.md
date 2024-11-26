@@ -18,46 +18,46 @@ The demo has only been tested on a Mac. Firefox, Opera, and legacy browsers don'
 ## Example test prompts
 Although the prototype will recognize any prompts, here are some test phrases.
 
-"compare health cover"
+*"compare health cover"*
 
-"get a quote"
+*"get a quote"*
 
-"frequently asked questions"
+*"frequently asked questions"*
 
-"singles health cover"
+*"singles health cover"*
 
-"book a doctor's appointment"
+*"book a doctor's appointment"*
 
-"top hospital and extras cover"
+*"top hospital and extras cover"*
 
-"cover for tax purposes"
+*"cover for tax purposes"*
 
-"extras only cover"
+*"extras only cover"*
 
-"log in to myBupa"
+*"log in to myBupa"*
 
-"call Bupa"
+*"call Bupa"*
 
-"chat via WhatsApp"
+*"chat via WhatsApp"*
 
-"chat via iMessage"
+*"chat via iMessage"*
 
-"find a Bupa store"
+*"find a Bupa store"*
 
-"corporate health cover"
+*"corporate health cover"*
 
-"student health cover"
+*"student health cover"*
 
-"online doctors"
+*"online doctors"*
 
-"find a provider"
+*"find a provider"*
 
-"Bupa offers"
+*"Bupa offers"*
 
-"family health cover"
+*"family health cover"*
 
-"Bupa Optical"
+*"Bupa Optical"*
 
-"chemist delivery"
+*"chemist delivery"*
 
-"Bupa Dental"
+*"Bupa Dental"*
