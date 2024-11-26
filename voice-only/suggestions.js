@@ -23,7 +23,7 @@ const words = [
   "Bupa Dental",
 ];
 const timePerWord = 5000; // milliseconds
-const timePerLetter = 40; //milliseconds
+const timePerLetter = 40; // milliseconds
 
 let current = words[0];
 const wordEl = document.getElementById("word");
