@@ -87,7 +87,7 @@ recognition.onresult = (event) => {
     else if (outputDiv.textContent.includes("Bupa store")) {
         window.open("https://www.bupa.com.au/contact-us/find-a-bupa-store", "_blank");
     }
-    else if (outputDiv.textContent.includes("online doctors")) {
+    else if (outputDiv.textContent.includes("online doctors") || (outputDiv.textContent.includes("online doctors")) {
         window.open("https://www.blua.bupa.com.au/", "_blank");
     }
     else if (outputDiv.textContent.includes("book a doctor's appointment")) {
