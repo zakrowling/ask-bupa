@@ -58,6 +58,8 @@ Although the prototype will recognize any prompts with a search query fallback, 
 
 *"Bupa Optical"*
 
+*"Bupa Aged Care"*
+
 *"chemist delivery"*
 
 *"Bupa Dental"*
