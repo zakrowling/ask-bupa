@@ -1,5 +1,6 @@
 const startButton = document.getElementById('startButton');
-var outputDiv = document.getElementsByClassName('autocomplete-input').placeholder;
+var outputDiv = document.querySelectorAll('input');
+//var outputDiv = document.getElementsByClassName('autocomplete-input').placeholder;
 //const outputDiv = document.getElementById('output');
 
 const recognition = new (window.SpeechRecognition || window.webkitSpeechRecognition || window.mozSpeechRecognition || window.msSpeechRecognition)();
