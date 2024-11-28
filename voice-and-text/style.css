@@ -40,11 +40,13 @@ h1 {
 }
 
 #output span {
-  padding: 5px;
+  padding: 12px 16px 12px 12px;
+  border-radius: 4px;
   background: #0079C8;
 }
 
 #output a {
+  text-decoration: none;
   color: #fff;
 }
 
@@ -53,7 +55,7 @@ h1 {
 }
 
 #clearSearch {
-  margin-right: 8px;
+  margin-right: 16px;
   color: #fff;
   cursor: pointer;
 }
