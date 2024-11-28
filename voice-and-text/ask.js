@@ -31,9 +31,6 @@ startButton.addEventListener('click', () => {
     recognition.start();
 });
 
-window.onload = function(){
-    clearsearch = document.getElementById('clearSearch');
-    clearsearch.onclick = function() {
-        outputDiv.style.display = 'none';
-    };
-};
+function hideSearch() {
+    outputDiv.style.display = "none";
+}
