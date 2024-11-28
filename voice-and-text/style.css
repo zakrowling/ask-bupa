@@ -42,7 +42,7 @@ h1 {
 }
 
 #output span {
-  display: flex;
+  display: inline-flex;
   position: relative;
   z-index: 100;
   margin-top: 6px;
