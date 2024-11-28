@@ -8,6 +8,9 @@ function _defineProperty(obj, key, value) {
 }
 //console.clear();
 
+import { data } from "suggestions.js";
+
+/*
 const data = [
 "Accident Cover",
 "Accidents",
@@ -201,7 +204,7 @@ const data = [
 "Where is the closest Hospital",
 "Why do my legs hurt"
 ];
-
+*/
 
 
 class Autocomplete {
