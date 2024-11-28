@@ -12,12 +12,14 @@ button {
 }
 
 .autocomplete-input {
-  border: 1px solid rgba(0, 0, 0, 0.54);
-  max-width: 600px;
-  padding: 8px;
+  border: 1px solid #4B5158;
+  border-radius: 4px;
+  max-width: 100%;
+  padding: 16px;
   font-size: 16px;
   line-height: 1.5;
   flex: 1;
+  color: #21272A;
 }
 
 .autocomplete-submit {
@@ -38,11 +40,13 @@ button {
 .autocomplete-results {
   position: absolute;
   margin-top: -1px;
-  border: 1px solid rgba(0, 0, 0, 0.54);
   padding: 4px 0;
+  border: 1px solid #4B5158;
+  border-radius: 4px;
   width: 100%;
   z-index: 1;
   background: #fff;
+  color: #21272A;
   margin: 0;
   padding: 0;
   list-style: none;
