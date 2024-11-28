@@ -20,6 +20,8 @@ recognition.onresult = (event) => {
     
     outputDiv.innerHTML = "<span id='searchTag'><a href='" + searchURL + "' target='_blank'>" + transcript + "</a><i onclick='hideSearch()' id='clearSearch' title='Clear Search' class='fa-solid fa-circle-xmark' aria-hidden='true'></i></span>";
     outputDiv.style.display = 'block';
+
+    document.location.href = searchURL;
 };
 
 recognition.onend = () => {
