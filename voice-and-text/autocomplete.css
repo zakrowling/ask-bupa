@@ -19,7 +19,7 @@ button {
 .autocomplete-input {
   border: 1px solid transparent;
   padding: 12px 12px 12px 16px;
-  max-width: 85%;
+  max-width: 78%;
   font-size: 16px;
   line-height: 1.5;
   flex: 1;
@@ -68,6 +68,23 @@ button {
 .search-result {
   margin-top: 64px;
   text-align: center;
+}
+
+.autocomplete-submit {
+  margin-top: 2px;
+  width: 44px;
+  height: 44px;
+  background: none;
+  border: none;
+  border-radius: 100px;
+  font-size: 16px;
+  cursor: pointer;
+  color: #0079C8;
+  transition: all 0.3s ease;
+}
+
+.autocomplete-submit:hover {
+  background: #C5CBD1;
 }
 
 .hidden {
