@@ -1,5 +1,5 @@
 const startButton = document.getElementById('startButton');
-var outputDiv = document.querySelectorAll('input');
+var outputDiv = document.querySelectorAll('input').value;
 //var outputDiv = document.getElementsByClassName('autocomplete-input').placeholder;
 //const outputDiv = document.getElementById('output');
 
