@@ -196,7 +196,10 @@ const data = [
 "What is the Australian Government Rebate",
 "What is Lifetime Health Cover Loading (LHC)",
 "What is excess",
-"What are annual limits"
+"What are annual limits",
+"Where are Bupa stores",
+"Where is the closest Hospital",
+"Why do my legs hurt"
 ];
 
 
