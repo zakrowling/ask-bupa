@@ -51,6 +51,10 @@ button {
   border-bottom: 1px solid #878F97;
 }
 
+.autocomplete-result:last-child {
+  border-bottom: none;
+}
+
 .autocomplete-result:hover {
   background: #fff;
 }
