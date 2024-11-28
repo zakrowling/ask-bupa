@@ -13,6 +13,7 @@ recognition.onstart = () => {
 };
 
 recognition.onresult = (event) => {
+    playMicAccept();
     const transcript = event.results[0][0].transcript;
     const matches = transcript.replace(/ /g, '+');
     const searchURL = "https://www.bupa.com.au/utility/search-results?q=" + matches;
@@ -24,7 +25,6 @@ recognition.onresult = (event) => {
 };
 
 recognition.onend = () => {
-    playMicAccept();
     startButton.classList.remove("active");
     startButton.textContent = 'Ask Bupa';
 };
