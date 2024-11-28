@@ -425,6 +425,7 @@ document.querySelector('form').addEventListener('submit', event => {
   if (input.value.length > 3) {
       const matchedQuery = input.value.replace(/ /g, '+');
       const searchedURL = "https://www.bupa.com.au/utility/search-results?q=" + matchedQuery;
-      window.open(searchedURL, "_blank");
+      document.location.href = searchedURL;
+      //window.open(searchedURL, "_blank");
   }
 });
