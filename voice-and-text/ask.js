@@ -116,7 +116,7 @@ recognition.onresult = (event) => {
         window.open("https://www.bupa.com.au/healthlink", "_blank");
     }
     else if (outputDiv) {
-        const matches = outputDiv.textContent.replace(/ /g, '+');
+        const matches = outputDiv.replace(/ /g, '+');
         const searchURL = "https://www.bupa.com.au/utility/search-results?q=" + matches;
         window.open(searchURL, "_blank");
     }
