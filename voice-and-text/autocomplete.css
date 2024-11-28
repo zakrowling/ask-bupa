@@ -47,7 +47,7 @@ button {
 }
 
 .autocomplete-result {
-  cursor: default;
+  cursor: pointer;
   padding: 12px 0;
   margin: 0 20px;
   border-bottom: 1px solid #DDE1E6;
@@ -58,7 +58,7 @@ button {
 }
 
 .autocomplete-result:hover {
-  background: #fff;
+  opacity: .7;
 }
 
 .autocomplete-result.selected {
