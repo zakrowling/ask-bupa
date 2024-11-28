@@ -1,12 +1,11 @@
 const startButton = document.getElementById('startButton');
-//var outputDiv = document.getElementsByTagName('input').placeholder; //document.getElementsByTagName
-//var outputDiv = document.getElementsByClassName('autocomplete-input').placeholder;
 const outputDiv = document.getElementById('output');
 
 const recognition = new (window.SpeechRecognition || window.webkitSpeechRecognition || window.mozSpeechRecognition || window.msSpeechRecognition)();
 recognition.lang = 'en-US';
 
 recognition.onstart = () => {
+    playSound();
     startButton.classList.add("active");
     startButton.textContent = 'Listening...';
     outputDiv.textContent = '';
@@ -36,4 +35,9 @@ startButton.addEventListener('click', () => {
 function hideSearch() {
     outputDiv.style.display = "none";
     document.querySelector('.autocomplete-input').value = '';
+}
+
+function playSound() {
+    var audio = document.getElementById("audio");
+    audio.play();
 }
