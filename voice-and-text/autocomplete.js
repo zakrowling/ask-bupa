@@ -125,6 +125,7 @@ class Autocomplete {
 
       event.preventDefault();
       activeItem = this.getItemAt(activeIndex);
+        console.log(activeItem);
       this.activeIndex = activeIndex;
 
       if (prevActive) {
