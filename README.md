@@ -11,7 +11,7 @@ If it cannot detect a match, it defaults users to the standard website search an
 ## Demo
 https://zakrowling.github.io/ask-bupa/voice-only/
 
-Note: The demo will only work if you give permission for your browser to access your microphone and allow websites to open in a new tab. Ad blockers and other protective tools may also impact the prototype.
+Note: The demo will only work if you give permission for your browser to access your microphone. Ad blockers and other protective tools may also impact the prototype.
 
 The demo has only been tested on a Mac. Firefox, Opera, and legacy browsers don't support the Web Speech API.
 
