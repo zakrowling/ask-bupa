@@ -42,6 +42,8 @@ h1 {
 
 #output span {
   display: inline-block;
+  position: relative;
+  z-index: 100;
   padding: 10px 14px 10px 12px;
   border-radius: 4px;
   background: #0079C8;
