@@ -44,6 +44,7 @@ h1 {
   display: inline-block;
   position: relative;
   z-index: 100;
+  margin-top: 6px;
   padding: 10px 14px 10px 12px;
   border-radius: 4px;
   background: #0079C8;
