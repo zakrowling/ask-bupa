@@ -53,6 +53,14 @@ button {
   border-bottom: 1px solid #DDE1E6;
 }
 
+.autocomplete-result::before {
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  font-size: 18px;
+  content: "\f130";
+  color: #0079C8;
+}
+
 .autocomplete-result:last-child {
   border-bottom: none;
 }
