@@ -35,6 +35,7 @@ h1 {
 }
 
 #startButton {
+  margin-right: 8px;
   width: 48px;
   background: #fff;
   color: #000;
