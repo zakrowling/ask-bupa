@@ -15,6 +15,7 @@ recognition.onresult = (event) => {
     const transcript = event.results[0][0].transcript;
     
     outputDiv = transcript;
+    console.log(outputDiv);
     
     if (outputDiv.includes("singles health cover")) {
         window.open("https://www.bupa.com.au/health-insurance/singles", "_blank");
