@@ -1,5 +1,9 @@
 .autocomplete-container {
   position: relative;
+  padding: 16px;
+  border: 1px solid #4B5158;
+  border-radius: 4px;
+  background: #fff;
 }
 
 .autocomplete {
@@ -12,10 +16,8 @@ button {
 }
 
 .autocomplete-input {
-  border: 1px solid #4B5158;
-  border-radius: 4px;
+  border: 1px solid transparent;
   max-width: 100%;
-  padding: 16px;
   font-size: 16px;
   line-height: 1.5;
   flex: 1;
