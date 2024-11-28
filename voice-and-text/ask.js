@@ -18,7 +18,7 @@ recognition.onresult = (event) => {
     const matches = transcript.replace(/ /g, '+');
     const searchURL = "https://www.bupa.com.au/utility/search-results?q=" + matches;
     
-    outputDiv.innerHTML = "<span id='searchTag'><a href='" + searchURL + "' target='_blank'>" + transcript + "<i onclick='hideSearch()' id='clearSearch' title='Clear Search' class='fa-solid fa-circle-xmark' aria-hidden='true'></i></a></span>";
+    outputDiv.innerHTML = "<span id='searchTag'><a href='" + searchURL + "' target='_blank'>" + transcript + "</a><i onclick='hideSearch()' id='clearSearch' title='Clear Search' class='fa-solid fa-circle-xmark' aria-hidden='true'></i></span>";
     outputDiv.style.display = 'block';
 };
 
