@@ -38,9 +38,9 @@ h1 {
   margin-right: 8px;
   width: 48px;
   background: #fff;
-  color: #000;
+  color: transparent;
   cursor: pointer;
-  font: bold 18px "Montserrat", sans-serif;
+  font-size: 0.01px;
   text-decoration: none;
   border-radius: 100px;
   border: none;
@@ -50,6 +50,7 @@ h1 {
 #startButton::before {
   font-family: "Font Awesome 6 Free";
   font-weight: 900;
+  font-size: 18px;
   content: "\f130";
 }
 
