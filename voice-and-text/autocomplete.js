@@ -6,7 +6,7 @@ function _defineProperty(obj, key, value) {
     }
     return obj;
 }
-console.clear();
+//console.clear();
 
 const data = [
 "compare health cover",
