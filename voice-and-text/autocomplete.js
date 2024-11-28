@@ -246,11 +246,14 @@ const autocomplete = new Autocomplete({
   searchFn: search,
   shouldAutoSelect: true });
 
-/*
 document.querySelector('form').addEventListener('submit', event => {
   event.preventDefault();
+/*
   const result = document.querySelector('.search-result');
   const input = document.querySelector('.autocomplete-input');
   result.innerHTML = 'Searched for: ' + input.value;
+*/  
+  const matchedQuery = input.value.replace(/ /g, '+');
+  const searchedURL = "https://www.bupa.com.au/utility/search-results?q=" + matchedQuery;
+  window.open(searchedURL, "_blank");
 });
-*/
