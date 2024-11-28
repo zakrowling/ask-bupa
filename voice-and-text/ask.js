@@ -10,13 +10,14 @@ recognition.onstart = () => {
     startButton.classList.add("active");
     startButton.textContent = 'Listening...';
     outputDiv.textContent = '';
+    outputDiv.style.display = 'none';
 };
 
 recognition.onresult = (event) => {
     const transcript = event.results[0][0].transcript;
     
     outputDiv.textContent = transcript;
-    console.log(outputDiv);
+    outputDiv.style.display = 'block';
 };
 
 recognition.onend = () => {
