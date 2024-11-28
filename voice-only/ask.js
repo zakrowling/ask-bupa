@@ -5,7 +5,7 @@ const recognition = new (window.SpeechRecognition || window.webkitSpeechRecognit
 recognition.lang = 'en-US';
 
 recognition.onstart = () => {
-    playSound();
+    playMicOn();
     startButton.classList.add("active");
     outputDiv.classList.add("sound-bars");
     startButton.textContent = 'Listening...';
@@ -123,6 +123,7 @@ recognition.onresult = (event) => {
 };
 
 recognition.onend = () => {
+    playMicAccept();
     startButton.classList.remove("active");
     outputDiv.classList.remove("sound-bars");
     startButton.textContent = 'Ask Bupa';
@@ -132,7 +133,12 @@ startButton.addEventListener('click', () => {
     recognition.start();
 });
 
-function playSound() {
-    var audio = document.getElementById("audio");
+function playMicOn() {
+    var audio = document.getElementById("micOn");
+    audio.play();
+}
+
+function playMicAccept() {
+    var audio = document.getElementById("micAccept");
     audio.play();
 }
