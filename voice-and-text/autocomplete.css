@@ -52,11 +52,11 @@ button {
 }
 
 .autocomplete-result:hover {
-  background: rgba(0, 0, 0, 0.12);
+  background: #fff;
 }
 
 .autocomplete-result.selected {
-  background: rgba(0, 0, 0, 0.12);
+  font-weight: bold;
 }
 
 .search-result {
