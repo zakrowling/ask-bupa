@@ -7,7 +7,6 @@ recognition.lang = 'en-US';
 
 recognition.onstart = () => {
     startButton.classList.add("active");
-    outputDiv.classList.add("sound-bars");
     startButton.textContent = 'Listening...';
     outputDiv.textContent = '';
 };
@@ -125,7 +124,6 @@ recognition.onresult = (event) => {
 
 recognition.onend = () => {
     startButton.classList.remove("active");
-    outputDiv.classList.remove("sound-bars");
     startButton.textContent = 'Ask Bupa';
 };
 
