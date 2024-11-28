@@ -5,6 +5,7 @@ const recognition = new (window.SpeechRecognition || window.webkitSpeechRecognit
 recognition.lang = 'en-US';
 
 recognition.onstart = () => {
+    playSound();
     startButton.classList.add("active");
     outputDiv.classList.add("sound-bars");
     startButton.textContent = 'Listening...';
@@ -130,3 +131,8 @@ recognition.onend = () => {
 startButton.addEventListener('click', () => {
     recognition.start();
 });
+
+function playSound() {
+    var audio = document.getElementById("audio");
+    audio.play();
+}
