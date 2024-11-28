@@ -52,6 +52,7 @@ h1 {
   font-weight: 900;
   font-size: 18px;
   content: "\f130";
+  color: #0079C8;
 }
 
 #startButton:hover {
@@ -60,6 +61,9 @@ h1 {
 
 #startButton.active {
   background-color: #D90014;
+}
+
+#startButton.active::before {
   color: #fff;
 }
 
