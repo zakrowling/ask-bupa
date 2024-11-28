@@ -5,7 +5,7 @@ const recognition = new (window.SpeechRecognition || window.webkitSpeechRecognit
 recognition.lang = 'en-US';
 
 recognition.onstart = () => {
-    playSound();
+    playMicOn();
     startButton.classList.add("active");
     startButton.textContent = 'Listening...';
     outputDiv.textContent = '';
@@ -24,6 +24,7 @@ recognition.onresult = (event) => {
 };
 
 recognition.onend = () => {
+    playMicAccept();
     startButton.classList.remove("active");
     startButton.textContent = 'Ask Bupa';
 };
@@ -37,7 +38,12 @@ function hideSearch() {
     document.querySelector('.autocomplete-input').value = '';
 }
 
-function playSound() {
-    var audio = document.getElementById("audio");
+function playMicOn() {
+    var audio = document.getElementById("micOn");
+    audio.play();
+}
+
+function playMicAccept() {
+    var audio = document.getElementById("micAccept");
     audio.play();
 }
