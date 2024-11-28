@@ -22,6 +22,9 @@ const words = [
   "chemist delivery",
   "Bupa Dental",
 ];
+
+shuffle(words);
+
 const timePerWord = 5000; // milliseconds
 const timePerLetter = 40; // milliseconds
 
