@@ -13,6 +13,7 @@ recognition.onstart = () => {
 };
 
 recognition.onresult = (event) => {
+    playMicAccept();
     const transcript = event.results[0][0].transcript;
     
     outputDiv.textContent = transcript;
@@ -123,7 +124,6 @@ recognition.onresult = (event) => {
 };
 
 recognition.onend = () => {
-    playMicAccept();
     startButton.classList.remove("active");
     outputDiv.classList.remove("sound-bars");
     startButton.textContent = 'Ask Bupa';
