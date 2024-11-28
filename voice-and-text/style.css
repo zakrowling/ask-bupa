@@ -37,7 +37,15 @@ h1 {
   background: #fff;
   text-align: left;
   width: 85%;
-  color: #000;
+}
+
+#output a {
+  color: #0079C8;
+}
+
+#clearSearch {
+  margin-right: 8px;
+  color: #0079C8;
 }
 
 #startButton {
