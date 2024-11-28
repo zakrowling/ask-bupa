@@ -22,21 +22,6 @@ button {
   color: #21272A;
 }
 
-.autocomplete-submit {
-  border: 1px solid #1c5b72;
-  padding: 8px 16px;
-  background: #1c5b72;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.autocomplete-submit svg {
-  width: 24px;
-  height: 24px;
-  fill: #fff;
-}
-
 .autocomplete-results {
   position: absolute;
   margin-top: -1px;
