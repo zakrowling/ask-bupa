@@ -422,7 +422,7 @@ const autocomplete = new Autocomplete({
 document.querySelector('form').addEventListener('submit', event => {
   event.preventDefault();
   const input = document.querySelector('.autocomplete-input');
-  if (input.value.length > 1) {
+  if (input.value.length > 3) {
       const matchedQuery = input.value.replace(/ /g, '+');
       const searchedURL = "https://www.bupa.com.au/utility/search-results?q=" + matchedQuery;
       window.open(searchedURL, "_blank");
