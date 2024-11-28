@@ -30,3 +30,8 @@ recognition.onend = () => {
 startButton.addEventListener('click', () => {
     recognition.start();
 });
+
+const clearsearch = document.getElementById('clearSearch');
+clearsearch.onclick = function() {
+    outputDiv.style.display = 'none';
+};
