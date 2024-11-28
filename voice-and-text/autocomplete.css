@@ -62,6 +62,7 @@ button {
 }
 
 .autocomplete-result.selected {
+  color: #0079C8;
   font-weight: bold;
 }
 
