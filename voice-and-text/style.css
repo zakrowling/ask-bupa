@@ -37,7 +37,7 @@ h1 {
 }
 
 #startButton {
-  padding: 16px 24px;
+  width: 48px;
   background: #fff;
   color: #000;
   cursor: pointer;
