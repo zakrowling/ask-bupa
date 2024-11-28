@@ -18,7 +18,7 @@ button {
 
 .autocomplete-input {
   border: 1px solid transparent;
-  padding-left: 16px;
+  padding: 12px 12px 12px 16px;
   max-width: 100%;
   font-size: 16px;
   line-height: 1.5;
