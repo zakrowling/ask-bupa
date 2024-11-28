@@ -31,9 +31,7 @@ h1 {
 }
 
 #output {
-  font-size: 18px;
-  margin-top: 24px;
-  height: 24px;
+  display: none;
 }
 
 #startButton {
