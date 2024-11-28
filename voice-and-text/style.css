@@ -38,18 +38,17 @@ h1 {
 
 #startButton {
   padding: 16px 24px;
-  background: #F5F6F8;
+  background: #fff;
   color: #000;
   cursor: pointer;
   font: bold 18px "Montserrat", sans-serif;
   text-decoration: none;
-  border-radius: 4px;
+  border-radius: 100px;
   border: none;
   transition: all 0.3s ease;
 }
 
 #startButton::before {
-  padding-right: 16px;
   font-family: "Font Awesome 6 Free";
   font-weight: 900;
   content: "\f130";
