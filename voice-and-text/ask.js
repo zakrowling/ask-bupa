@@ -16,7 +16,7 @@ recognition.onstart = () => {
 recognition.onresult = (event) => {
     const transcript = event.results[0][0].transcript;
     
-    outputDiv.innerHTML = "<i class='fa fa-times' aria-hidden='true'></i><a href='https://www.bupa.com.au" target="_blank'>" + transcript + "</a>";
+    outputDiv.innerHTML = "<i class='fa fa-times remove-search' aria-hidden='true'></i><a href='https://www.bupa.com.au" target="_blank'>" + transcript + "</a>";
     outputDiv.style.display = 'block';
 };
 
