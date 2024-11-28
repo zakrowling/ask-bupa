@@ -125,7 +125,6 @@ class Autocomplete {
 
       event.preventDefault();
       activeItem = this.getItemAt(activeIndex);
-        console.log(activeItem);
       this.activeIndex = activeIndex;
 
       if (prevActive) {
@@ -234,6 +233,9 @@ class Autocomplete {
     document.body.addEventListener('click', this.handleDocumentClick);this.inputNode.addEventListener('keyup', this.handleKeyup);this.inputNode.addEventListener('keydown', this.handleKeydown);this.inputNode.addEventListener('focus', this.handleFocus);this.resultsNode.addEventListener('click', this.handleResultClick);}}
 
 const search = input => {
+  if (transcript.length < 1) {
+      console.log('yes');
+  }
   if (input.length < 1) {
     return [];
   }
