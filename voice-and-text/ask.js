@@ -32,6 +32,8 @@ startButton.addEventListener('click', () => {
 });
 
 const clearsearch = document.getElementById('clearSearch');
-clearsearch.onclick = function() {
-    outputDiv.style.display = 'none';
+window.onload = function(){
+    clearsearch.onclick = function() {
+        outputDiv.style.display = 'none';
+    };
 };
