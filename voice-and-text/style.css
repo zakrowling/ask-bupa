@@ -32,6 +32,7 @@ h1 {
 
 #output {
   position: absolute;
+  z-index: 100;
   top: 95px;
   left: 8px;
   background: #fff;
@@ -69,7 +70,7 @@ h1 {
 
 #startButton {
   position: absolute;
-  z-index: 100;
+  z-index: 10;
   top: 87px;
   right: 0;
   height: 46px;
