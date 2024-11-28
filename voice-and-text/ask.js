@@ -1,5 +1,5 @@
-const startButton = document.getElementById('startButton');
-const outputDiv = document.getElementById('output');
+const startButton = document.getElementsByClassName("microphone");
+const outputDiv = document.getElementsByClassName("query");
 
 const recognition = new (window.SpeechRecognition || window.webkitSpeechRecognition || window.mozSpeechRecognition || window.msSpeechRecognition)();
 recognition.lang = 'en-US';
