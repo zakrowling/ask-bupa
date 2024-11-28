@@ -1,5 +1,6 @@
 const startButton = document.getElementById('startButton');
-const outputDiv = document.getElementById('output');
+const outputDiv = document.getElementsByClassNames('autocomplete-input');
+//const outputDiv = document.getElementById('output');
 
 const recognition = new (window.SpeechRecognition || window.webkitSpeechRecognition || window.mozSpeechRecognition || window.msSpeechRecognition)();
 recognition.lang = 'en-US';
@@ -15,6 +16,7 @@ recognition.onresult = (event) => {
     const transcript = event.results[0][0].transcript;
     
     outputDiv.textContent = transcript;
+    
     if (outputDiv.textContent.includes("singles health cover")) {
         window.open("https://www.bupa.com.au/health-insurance/singles", "_blank");
     }
