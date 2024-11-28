@@ -28,6 +28,8 @@ button {
 
 .autocomplete-results {
   position: absolute;
+  max-height: 300px;
+  overflow: scroll;
   left: -2px;
   margin: 0;
   padding: 0;
