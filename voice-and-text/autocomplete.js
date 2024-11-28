@@ -44,25 +44,6 @@ class Autocomplete {
     onHide = () => {} } =
   {}) {_defineProperty(this, "handleDocumentClick",
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     event => {
       if (event.target === this.inputNode || this.rootNode.contains(event.target)) {
         return;
@@ -265,10 +246,11 @@ const autocomplete = new Autocomplete({
   searchFn: search,
   shouldAutoSelect: true });
 
-
+/*
 document.querySelector('form').addEventListener('submit', event => {
   event.preventDefault();
   const result = document.querySelector('.search-result');
   const input = document.querySelector('.autocomplete-input');
   result.innerHTML = 'Searched for: ' + input.value;
 });
+*/
