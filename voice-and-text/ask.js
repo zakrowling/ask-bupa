@@ -16,7 +16,7 @@ recognition.onstart = () => {
 recognition.onresult = (event) => {
     const transcript = event.results[0][0].transcript;
     
-    outputDiv.textContent = transcript;
+    outputDiv.innerHTML = "<i class="fa fa-times" aria-hidden="true"></i>" + transcript;
     outputDiv.style.display = 'block';
 };
 
