@@ -39,8 +39,13 @@ h1 {
   width: 85%;
 }
 
+#output span {
+  padding: 5px;
+  background: #0079C8;
+}
+
 #output a {
-  color: #0079C8;
+  color: #fff;
 }
 
 #output a:hover {
@@ -49,7 +54,7 @@ h1 {
 
 #clearSearch {
   margin-right: 8px;
-  color: #0079C8;
+  color: #fff;
   cursor: pointer;
 }
 
