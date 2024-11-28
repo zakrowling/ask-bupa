@@ -15,7 +15,10 @@ recognition.onstart = () => {
 
 recognition.onresult = (event) => {
     const transcript = event.results[0][0].transcript;
-    outputDiv.innerHTML = "<i id='clearSearch' title='Clear Search' class='fa-solid fa-circle-xmark' aria-hidden='true' onclick='parentNode.remove()'></i><a href='https://www.bupa.com.au' target='_blank'>" + transcript + "</a>";
+    const matches = transcript.replace(/ /g, '+');
+    const searchURL = "https://www.bupa.com.au/utility/search-results?q=" + matches;
+    
+    outputDiv.innerHTML = "<i id='clearSearch' title='Clear Search' class='fa-solid fa-circle-xmark' aria-hidden='true' onclick='parentNode.remove()'></i><a href='" + searchURL + "' target='_blank'>" + transcript + "</a>";
     outputDiv.style.display = 'block';
 };
 
