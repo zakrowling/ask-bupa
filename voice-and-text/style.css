@@ -1,0 +1,135 @@
+body, html {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  background: #0D1846;
+  color: #fff;
+}
+
+#container {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 80%;
+  text-align: center;
+}
+
+h1 {
+  padding: 24px 0;
+  margin-bottom: 0;
+  font-weight: normal;
+}
+
+#search {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  padding: 32px 24px;
+  border-radius: 4px;
+}
+
+#output {
+  font-size: 18px;
+  margin-top: 24px;
+  height: 24px;
+}
+
+#startButton {
+  padding: 16px 24px;
+  background: #F5F6F8;
+  color: #000;
+  cursor: pointer;
+  font: bold 18px "Montserrat", sans-serif;
+  text-decoration: none;
+  border-radius: 4px;
+  border: none;
+  transition: all 0.3s ease;
+}
+
+#startButton::before {
+  padding-right: 16px;
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  content: "\f130";
+}
+
+#startButton:hover {
+  background: #C5CBD1;
+}
+
+#startButton.active {
+  background-color: #D90014;
+  color: #fff;
+}
+
+.sound-bars {
+  display: flex;
+}
+
+.sound-bars::before,
+.sound-bars::after,
+.sound-bars {
+  content: 'bar';
+  color: transparent;
+  transform: scaleY(.4);
+  height: 24px;
+  width: 4px;
+  background: #fff;
+  border-radius: 20px;
+  animation-duration: 1.2s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+.sound-bars::before {
+  position: relative;
+  left: -10px;
+  animation-name: loud;
+}
+
+.sound-bars {
+  animation-name: loud;
+}
+
+.sound-bars::after {
+  position: relative;
+  left: 6px;
+  animation-name: normal;
+}
+
+@keyframes quiet {
+  25%{
+    transform: scaleY(.6);
+  }
+  50%{
+    transform: scaleY(.4);
+  }
+  75%{
+    transform: scaleY(.8);
+  }
+}
+
+@keyframes normal {
+  25%{
+    transform: scaleY(1);
+  }
+  50%{
+    transform: scaleY(.4);
+  }
+  75%{
+    transform: scaleY(.6);
+  }
+}
+@keyframes loud {
+  25%{
+    transform: scaleY(1);
+  }
+  50%{
+    transform: scaleY(.4);
+  }
+  75%{
+    transform: scaleY(1);
+  }
+}
