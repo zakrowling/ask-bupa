@@ -33,4 +33,5 @@ startButton.addEventListener('click', () => {
 
 function hideSearch() {
     outputDiv.style.display = "none";
+    document.querySelector('.autocomplete-input').value = '';
 }
