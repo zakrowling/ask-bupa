@@ -1,5 +1,6 @@
 .autocomplete-container {
   position: relative;
+  margin-top: 40px;
   padding: 2px 0 2px 2px;
   border: 1px solid #4B5158;
   border-radius: 4px;
