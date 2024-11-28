@@ -6,7 +6,7 @@ recognition.lang = 'en-US';
 
 recognition.onstart = () => {
     startButton.classList.add("active");
-    startButton.textContent = '';
+    startButton.textContent = 'Listening...';
     outputDiv.textContent = '';
 };
 
