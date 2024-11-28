@@ -122,7 +122,7 @@ recognition.onresult = (event) => {
 
 recognition.onend = () => {
     startButton.classList.remove("active");
-    startButton.textContent = '';
+    startButton.textContent = 'Ask Bupa';
 };
 
 startButton.addEventListener('click', () => {
