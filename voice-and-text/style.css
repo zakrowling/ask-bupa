@@ -42,7 +42,7 @@ h1 {
 }
 
 #output span {
-  display: inline-block;
+  display: flex;
   position: relative;
   z-index: 100;
   margin-top: 6px;
@@ -52,6 +52,9 @@ h1 {
 }
 
 #output a {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
   text-decoration: none;
   color: #fff;
 }
