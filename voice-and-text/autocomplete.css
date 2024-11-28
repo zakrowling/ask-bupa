@@ -28,6 +28,7 @@ button {
   position: absolute;
   margin-top: -1px;
   padding: 4px 0;
+  text-align: left;
   border: 1px solid #4B5158;
   border-radius: 4px;
   width: 100%;
@@ -42,7 +43,8 @@ button {
 
 .autocomplete-result {
   cursor: default;
-  padding: 4px 8px;
+  padding: 12px 8px;
+  border-bottom: 1px solid #878F97;
 }
 
 .autocomplete-result:hover {
