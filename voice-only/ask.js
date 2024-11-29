@@ -5,7 +5,7 @@ const recognition = new (window.SpeechRecognition || window.webkitSpeechRecognit
 recognition.lang = 'en-US';
 
 if ('SpeechRecognition' in window || 'webkitSpeechRecognition' in window) {
-  console.log("speech recognition API supported");
+  console.log("Speech recognition API supported");
 } 
 else {
   alert("Sorry, your web browser doesn't support speech recognition.");
