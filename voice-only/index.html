@@ -9,6 +9,19 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="style.css" rel="stylesheet" type="text/css">
     <link rel="shortcut icon" type="image/ico" href="https://www.bupa.com.au/-/media/dotcom/favicon.ico">
+    <script>
+        async function getMedia(constraints) {
+          let stream = null;
+          try {
+            stream = await navigator.mediaDevices.getUserMedia(constraints);
+            console.log(stream)
+          } catch(err) {
+           document.write(err)
+          }
+        }
+        
+        getMedia({ audio: true, video: false })
+    </script>
 </head>
     
 <body>
