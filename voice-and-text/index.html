@@ -10,6 +10,19 @@
     <link href="style.css" rel="stylesheet" type="text/css">
     <link href="autocomplete.css" rel="stylesheet" type="text/css">
     <link rel="shortcut icon" type="image/ico" href="https://www.bupa.com.au/-/media/dotcom/favicon.ico">
+    <script>
+        async function getMedia(constraints) {
+          let stream = null;
+          try {
+            stream = await navigator.mediaDevices.getUserMedia(constraints);
+            console.log(stream)
+          } catch(err) {
+           document.write(err)
+          }
+        }
+        
+        getMedia({ audio: true, video: false })
+    </script>
 </head>
     
 <body>
