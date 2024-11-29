@@ -4,6 +4,13 @@ const outputDiv = document.getElementById('output');
 const recognition = new (window.SpeechRecognition || window.webkitSpeechRecognition || window.mozSpeechRecognition || window.msSpeechRecognition)();
 recognition.lang = 'en-US';
 
+if ('SpeechRecognition' in window || 'webkitSpeechRecognition' in window) {
+  console.log("speech recognition API supported");
+} 
+else {
+  alert("Sorry, your web browser doesn't support speech recognition.");
+}
+
 recognition.onstart = () => {
     playMicOn();
     startButton.classList.add("active");
