@@ -10,9 +10,12 @@ If it cannot detect a match, it defaults users to the standard website search an
 
 ## Demos
 Voice only
+
 https://zakrowling.github.io/ask-bupa/voice-only/
 
+
 Voice and text
+
 https://zakrowling.github.io/ask-bupa/voice-and-text/
 
 Note: The demo will only work if you give permission for your browser to access your microphone. Ad blockers and other protective tools may also impact the prototype.
