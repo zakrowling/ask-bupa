@@ -16,7 +16,7 @@ body, html {
 }
 
 h1 {
-  padding: 24px 0;
+  padding: 24px 0 0;
   margin-bottom: 0;
   font-weight: normal;
 }
@@ -78,7 +78,7 @@ h1 {
 #startButton {
   position: absolute;
   z-index: 10;
-  top: 195px;
+  top: 171px;
   right: 0;
   height: 46px;
   margin: 2px 8px 2px 1px;
