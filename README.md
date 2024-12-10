@@ -8,8 +8,12 @@ The Web Speech API provides browsers with speech recognition and speech synthesi
 After speech synthesis, the spoken phrase is then checked for keywords and matches URLs to these keywords.
 If it cannot detect a match, it defaults users to the standard website search and builds a search query from each word in the phrase.
 
-## Demo
+## Demos
+Voice only
 https://zakrowling.github.io/ask-bupa/voice-only/
+
+Voice and text
+https://zakrowling.github.io/ask-bupa/voice-and-text/
 
 Note: The demo will only work if you give permission for your browser to access your microphone. Ad blockers and other protective tools may also impact the prototype.
 
